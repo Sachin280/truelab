@@ -1,5 +1,6 @@
 import { Link } from 'react-router';
 import { Phone, Mail, MapPin, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import logo from "../../assets/truelab.png";
 
 export function Footer() {
   return (
@@ -8,7 +9,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* About */}
           <div>
-            <h3 className="text-xl mb-4">True Lab</h3>
+            <h3 className="text-xl mb-4"><img src={logo} alt="true lab logo" width="75%" /></h3>
             <p className="text-gray-300 text-sm mb-4">
               Leading diagnostic laboratory providing accurate, reliable, and timely medical test results with state-of-the-art technology.
             </p>
@@ -48,8 +49,8 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/book-test" className="text-gray-300 hover:text-secondary transition-colors">
-                  Book a Test
+                <Link to="/contact" className="text-gray-300 hover:text-secondary transition-colors">
+                  Contact Us
                 </Link>
               </li>
               <li>

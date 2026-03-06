@@ -18,42 +18,42 @@ export default function Services() {
           icon: Droplet,
           name: 'Complete Blood Count (CBC)',
           description: 'Comprehensive blood analysis including RBC, WBC, platelets, and hemoglobin',
-          price: '$29',
+          price: '500',
           duration: '4-6 hours',
         },
         {
           icon: Heart,
           name: 'Lipid Profile',
           description: 'Total cholesterol, HDL, LDL, triglycerides, and risk ratios',
-          price: '$35',
+          price: '500',
           duration: '6-8 hours',
         },
         {
           icon: Activity,
           name: 'Liver Function Test',
           description: 'Complete hepatic panel including enzymes and proteins',
-          price: '$45',
+          price: '500',
           duration: '8-12 hours',
         },
         {
           icon: Brain,
           name: 'Kidney Function Test',
           description: 'Creatinine, BUN, uric acid, and electrolytes',
-          price: '$40',
+          price: '500',
           duration: '8-12 hours',
         },
         {
           icon: Activity,
           name: 'Thyroid Profile',
           description: 'TSH, T3, T4 hormone levels',
-          price: '$42',
+          price: '500',
           duration: '12-24 hours',
         },
         {
           icon: Droplet,
           name: 'Diabetes Screening',
           description: 'Fasting glucose, HbA1c, and insulin levels',
-          price: '$38',
+          price: '500',
           duration: '4-6 hours',
         },
       ],
@@ -67,42 +67,42 @@ export default function Services() {
           icon: Bone,
           name: 'X-Ray',
           description: 'Digital X-ray imaging for bones, chest, and abdomen',
-          price: '$50',
+          price: '500',
           duration: 'Same day',
         },
         {
           icon: Brain,
           name: 'CT Scan',
           description: 'Computed tomography for detailed internal imaging',
-          price: '$250',
+          price: '500',
           duration: '24 hours',
         },
         {
           icon: Heart,
           name: 'Ultrasound',
           description: 'Abdominal, pelvic, and cardiac ultrasound',
-          price: '$120',
+          price: '500',
           duration: 'Same day',
         },
         {
           icon: Brain,
           name: 'MRI Scan',
           description: 'Magnetic resonance imaging for soft tissues',
-          price: '$400',
+          price: '500',
           duration: '24-48 hours',
         },
         {
           icon: Heart,
           name: 'ECG/EKG',
           description: 'Electrocardiogram for heart rhythm analysis',
-          price: '$30',
+          price: '500',
           duration: 'Immediate',
         },
         {
           icon: Activity,
           name: 'Mammography',
           description: 'Breast cancer screening and detection',
-          price: '$150',
+          price: '500',
           duration: '24 hours',
         },
       ],
@@ -116,42 +116,42 @@ export default function Services() {
           icon: Baby,
           name: 'Pregnancy Tests',
           description: 'Beta HCG, prenatal screening, and monitoring',
-          price: '$25',
+          price: '500',
           duration: '4-6 hours',
         },
         {
           icon: Syringe,
           name: 'Allergy Testing',
           description: 'Comprehensive allergen panel testing',
-          price: '$180',
+          price: '500',
           duration: '3-5 days',
         },
         {
           icon: TestTube,
           name: 'Genetic Testing',
           description: 'DNA analysis and genetic disorder screening',
-          price: '$500',
+          price: '500',
           duration: '7-14 days',
         },
         {
           icon: Microscope,
           name: 'Cancer Markers',
           description: 'Tumor markers and oncology screening',
-          price: '$200',
+          price: '500',
           duration: '2-3 days',
         },
         {
           icon: Droplet,
           name: 'Hormone Panel',
           description: 'Comprehensive hormonal analysis',
-          price: '$150',
+          price: '500',
           duration: '24-48 hours',
         },
         {
           icon: Activity,
           name: 'Cardiac Markers',
           description: 'Troponin, CK-MB, and heart health indicators',
-          price: '$85',
+          price: '500',
           duration: '6-8 hours',
         },
       ],
@@ -165,42 +165,42 @@ export default function Services() {
           icon: Heart,
           name: 'Basic Health Checkup',
           description: 'Essential tests for overall health screening',
-          price: '$99',
+          price: '500',
           duration: '24 hours',
         },
         {
           icon: Activity,
           name: 'Executive Health Checkup',
           description: 'Comprehensive health assessment for professionals',
-          price: '$299',
+          price: '500',
           duration: '48 hours',
         },
         {
           icon: Heart,
           name: 'Cardiac Risk Assessment',
           description: 'Complete heart health evaluation package',
-          price: '$199',
+          price: '500',
           duration: '24-48 hours',
         },
         {
           icon: Brain,
           name: 'Diabetes Care Package',
           description: 'Complete diabetes monitoring and management',
-          price: '$149',
+          price: '500',
           duration: '24 hours',
         },
         {
           icon: Baby,
           name: 'Women Wellness Package',
           description: 'Comprehensive women\'s health screening',
-          price: '$249',
+          price: '500',
           duration: '48 hours',
         },
         {
           icon: Users,
           name: 'Senior Citizen Package',
           description: 'Age-appropriate comprehensive health check',
-          price: '$279',
+          price: '500',
           duration: '48 hours',
         },
       ],
@@ -373,12 +373,16 @@ export default function Services() {
             Our healthcare advisors are available 24/7 to help you select the right tests
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="tel:+918398989804" >
             <Button size="lg" className="bg-white text-secondary hover:bg-gray-100">
-              Call 1800-123-4567
+              Call +91 8398989804
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-secondary">
+            </a>
+            <a href="https://wa.me/+918398989804">
+            <Button size="lg" variant="outline" className="border-white text-secondary hover:bg-white hover:text-secondary">
               Chat With Us
             </Button>
+            </a>
           </div>
         </div>
       </section>

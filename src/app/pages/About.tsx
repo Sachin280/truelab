@@ -242,11 +242,11 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-4xl md:text-5xl mb-2">20+</div>
+              <div className="text-4xl md:text-5xl mb-2">5+</div>
               <div className="text-gray-200">Years of Excellence</div>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl mb-2">2M+</div>
+              <div className="text-4xl md:text-5xl mb-2">200K+</div>
               <div className="text-gray-200">Patients Served</div>
             </div>
             <div>

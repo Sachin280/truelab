@@ -241,9 +241,11 @@ export default function Home() {
                     </div>
                     <h3 className="text-xl mb-2 text-primary">{test.title}</h3>
                     <p className="text-gray-600 text-sm mb-4">{test.description}</p>
+                    <Link to="/contact">
                     <Button variant="outline" className="w-full border-secondary text-secondary hover:bg-secondary hover:text-white">
                       Book Now
                     </Button>
+                    </Link>
                   </CardContent>
                 </Card>
               );
@@ -418,16 +420,16 @@ export default function Home() {
             Book your diagnostic test today and take the first step towards better health
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/book-test">
-              <Button size="lg" className="bg-white text-secondary hover:bg-gray-100 w-full sm:w-auto">
-                Book a Test
-              </Button>
-            </Link>
             <Link to="/contact">
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-secondary w-full sm:w-auto">
+              <Button size="lg" className="bg-white text-secondary hover:bg-gray-100 w-full sm:w-auto">
                 Contact Us
               </Button>
             </Link>
+            {/* <Link to="/contact">
+              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-secondary w-full sm:w-auto">
+                Contact Us
+              </Button>
+            </Link> */}
           </div>
         </div>
       </section>

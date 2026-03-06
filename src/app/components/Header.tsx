@@ -52,7 +52,7 @@ export function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <div className="flex flex-col">
-              <img src={logo} alt="logo" className='w-25 h-auto' />
+              <img src={logo} alt="logo" className='w-50 h-auto' />
               {/* <span className="text-2xl font-bold text-primary">True Lab</span> */}
               {/* <span className="text-xs text-secondary">Trusted Diagnostics</span> */}
             </div>
@@ -77,9 +77,9 @@ export function Header() {
 
           {/* Desktop CTA */}
           <div className="hidden md:block">
-            <Link to="/book-test">
+            <Link to="/contact">
               <Button className="bg-secondary hover:bg-secondary/90">
-                Book a Test
+                Contact Us
               </Button>
             </Link>
           </div>
@@ -111,9 +111,9 @@ export function Header() {
                   {link.name}
                 </Link>
               ))}
-              <Link to="/book-test" onClick={() => setMobileMenuOpen(false)}>
+              <Link to="/contact" onClick={() => setMobileMenuOpen(false)}>
                 <Button className="w-full bg-secondary hover:bg-secondary/90">
-                  Book a Test
+                  Contact Us
                 </Button>
               </Link>
             </nav>

@@ -119,7 +119,7 @@ export default function Blog() {
             </p>
             
             {/* Search Bar */}
-            <div className="bg-white rounded-lg shadow-xl p-2">
+            {/* <div className="bg-white rounded-lg shadow-xl p-2">
               <div className="flex gap-2">
                 <div className="relative flex-1">
                   <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
@@ -133,7 +133,7 @@ export default function Blog() {
                   Search
                 </Button>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -207,7 +207,7 @@ export default function Blog() {
                     ))}
                   </div>
 
-                  <div className="mt-8 pt-6 border-t">
+                  {/* <div className="mt-8 pt-6 border-t">
                     <h3 className="text-lg text-primary mb-4">Newsletter</h3>
                     <p className="text-sm text-gray-600 mb-4">
                       Subscribe to get health tips delivered to your inbox
@@ -220,7 +220,7 @@ export default function Blog() {
                     <Button className="w-full bg-secondary hover:bg-secondary/90">
                       Subscribe
                     </Button>
-                  </div>
+                  </div> */}
                 </CardContent>
               </Card>
             </div>

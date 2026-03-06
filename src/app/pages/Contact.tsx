@@ -106,9 +106,9 @@ export default function Contact() {
             })}
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 gap-12 text-center">
             {/* Contact Form */}
-            <div>
+            {/* <div>
               <div className="mb-8">
                 <h2 className="text-3xl text-primary mb-4">Send Us a Message</h2>
                 <p className="text-gray-600">
@@ -206,7 +206,7 @@ export default function Contact() {
                   </form>
                 </CardContent>
               </Card>
-            </div>
+            </div> */}
 
             {/* Locations & Map */}
             <div>
@@ -217,7 +217,7 @@ export default function Contact() {
                 </p>
               </div>
 
-              <div className="space-y-4 mb-8">
+              {/* <div className="space-y-4 mb-8">
                 {locations.map((location, index) => (
                   <Card key={index} className="hover:shadow-lg transition-shadow border border-gray-200">
                     <CardContent className="p-6">
@@ -245,25 +245,40 @@ export default function Contact() {
                     </CardContent>
                   </Card>
                 ))}
-              </div>
+              </div> */}
 
               {/* Map Placeholder */}
               <Card className="overflow-hidden border-2 border-gray-200">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3182.4298499055985!2d76.61631517548457!3d28.186054175911412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDExJzA5LjgiTiA3NsKwMzcnMDguMCJF!5e1!3m2!1sen!2sin!4v1772698554578!5m2!1sen!2sin"
+                  width="100%"
+                  height="600"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Google Map"
+                />
+              </Card>
+
+
+              {/* <Card className="overflow-hidden border-2 border-gray-200">
                 <div className="bg-gray-200 h-64 flex items-center justify-center">
                   <div className="text-center text-gray-500">
                     <MapPin className="w-12 h-12 mx-auto mb-2" />
+
                     <p>Interactive Map</p>
                     <p className="text-sm">View all our locations</p>
                   </div>
                 </div>
-              </Card>
+              </Card> */}
             </div>
-          </div>
-        </div>
-      </section>
+          </div >
+        </div >
+      </section >
 
       {/* FAQ Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-gray-50" >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl text-primary mb-4">Frequently Asked Questions</h2>
@@ -308,10 +323,10 @@ export default function Contact() {
             ))}
           </div>
         </div>
-      </section>
+      </section >
 
       {/* Live Chat CTA */}
-      <section className="py-16 bg-gradient-to-r from-secondary to-teal-600 text-white">
+      < section className="py-16 bg-gradient-to-r from-secondary to-teal-600 text-white" >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Card className="bg-white/10 backdrop-blur-sm border-white/20">
             <CardContent className="p-8 md:p-12 text-center">
@@ -321,19 +336,22 @@ export default function Contact() {
                 Our support team is available 24/7 to help you with bookings, results, or any other queries
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" className="bg-white text-secondary hover:bg-gray-100">
-                  <Phone className="w-5 h-5 mr-2" />
-                  Call 1800-123-4567
-                </Button>
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-secondary">
-                  <MessageSquare className="w-5 h-5 mr-2" />
-                  Start Live Chat
-                </Button>
+                <a href="tel:+918398989804" >
+                  <Button size="lg" className="bg-white text-secondary hover:bg-gray-100">
+                    <Phone className="w-5 h-5 mr-2" />
+                    Call +918398989804
+                  </Button></a>
+                <a href="https://wa.me/+918398989804">
+                  <Button size="lg" variant="outline" className="border-white text-secondary hover:bg-white hover:text-secondary">
+                    <MessageSquare className="w-5 h-5 mr-2" />
+                    Start Chat
+                  </Button>
+                </a>
               </div>
             </CardContent>
           </Card>
         </div>
-      </section>
-    </div>
+      </section >
+    </div >
   );
 }
